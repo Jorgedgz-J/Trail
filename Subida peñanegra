@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrera de Montaña</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#informacion">Información</a></li>
+        <li><a href="#recorrido">Recorrido</a></li>
+        <li><a href="#inscripcion">Inscripción</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección: Inicio -->
+  <section id="inicio" class="hero">
+    <h1>Carrera de Montaña 2024</h1>
+    <p>Únete a esta emocionante experiencia en contacto con la naturaleza.</p>
+    <a href="#inscripcion" class="btn">Inscríbete ahora</a>
+  </section>
+
+  <!-- Sección: Información -->
+  <section id="informacion" class="section">
+    <h2>Información del Evento</h2>
+    <p>Fecha: 15 de Junio de 2024</p>
+    <p>Ubicación: Montañas del Valle Central</p>
+    <p>Categorías: 5K, 10K, 21K</p>
+    <p>Premios para los tres primeros lugares de cada categoría.</p>
+  </section>
+
+  <!-- Sección: Recorrido -->
+  <section id="recorrido" class="section">
+    <h2>Recorrido</h2>
+    <p>Consulta las rutas disponibles:</p>
+    <img src="mapa.jpg" alt="Mapa del recorrido" class="map">
+    <a href="https://www.google.com/maps" target="_blank" class="btn">Ver en Google Maps</a>
+  </section>
+
+  <!-- Sección: Inscripción -->
+  <section id="inscripcion" class="section">
+    <h2>Inscripción</h2>
+    <form id="formulario-inscripcion">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="categoria">Categoría:</label>
+      <select id="categoria" name="categoria" required>
+        <option value="5k">5K</option>
+        <option value="10k">10K</option>
+        <option value="21k">21K</option>
+      </select>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Sección: Contacto -->
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Para más información, escríbenos:</p>
+    <p>Email: info@carreramontana.com</p>
+    <p>Teléfono: +123 456 789</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Carrera de Montaña. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
